@@ -12,7 +12,7 @@ const fib1 = (n) => {
 
 
 // Lets solve using DP approach.
-// We are going to use memoziation.
+// We are going to use memoization.
 const fib = (n, memo = {}) => {
     if (n in memo) return memo[n];
     if (n <= 2) return 1;
